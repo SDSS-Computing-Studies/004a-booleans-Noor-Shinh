@@ -36,7 +36,7 @@ elif c>(a and b):
 
 if z==(y+x):
     print("that is a right triangle")
-elif z<(y+x):
-    print("that is an acute triangle")
 elif z>(y+x):
+    print("that is an acute triangle")
+elif z<(y+x):
     print("that is an obtuse triangle")
