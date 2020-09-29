@@ -12,3 +12,19 @@
 # - "that is a right triangle"
 # - "that is an acute triangle"
 # - "that is an obtuse triangle"
+import math
+a=input("Enter side 1 length")
+b=input("Enter side length 2")
+c=input("Enter side length hypoteneuse")
+a=int(a)
+b=int(b)
+c=int(c)
+x=math.pow(a,2)
+y=math.pow(b,2)
+z=math.pow(c,2)
+if (x+y)==z:
+    print("That is a right triangle")
+elif (x+y)<z:
+    print("That is an obtuse triangle")
+elif (x+y)>z:
+    print("That is an acute triangle")
