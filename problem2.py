@@ -8,6 +8,7 @@
 # a number
 
 # Outputs:
+import math
 # "the number is an integer"
 # "the number is not an integer"
 a=input("Enter a number")
