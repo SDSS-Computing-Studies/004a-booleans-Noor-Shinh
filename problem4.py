@@ -38,7 +38,7 @@ elif x>z and x:
 
 if h==(j+k):
     print("that is a right triangle")
-elif h<(j+k):
-    print("that is an acute triangle")
 elif h>(j+k):
+    print("that is an acute triangle")
+elif h<(j+k):
     print("that is an obtuse triangle")
