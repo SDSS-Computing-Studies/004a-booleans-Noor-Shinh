@@ -19,9 +19,7 @@ c=input("Enter side length 3")
 a=float(a)
 b=float(b)
 c=float(c)
-x=math.pow(a,2)
-y=math.pow(b,2)
-z=math.pow(c,2)
+
 if a>(b and c):
     x=math.pow(c,2)
     y=math.pow(b,2)
@@ -38,7 +36,7 @@ elif c>(a and b):
 
 if z==(y+x):
     print("that is a right triangle")
-elif z>(y+x):
-    print("that is an acute triangle")
 elif z<(y+x):
+    print("that is an acute triangle")
+elif z>(y+x):
     print("that is an obtuse triangle")
