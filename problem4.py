@@ -26,7 +26,7 @@ if a>(b and c):
     z=math.pow(a,2)
 elif b>(a and c):
     x=math.pow(c,2)
-    y=math.pow(b,2)
+    y=math.pow(a,2)
     z=math.pow(b,2)
 elif c>(a and b):
     x=math.pow(a,2)
