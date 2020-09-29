@@ -34,7 +34,7 @@ elif c>(a and b):
     z=math.pow(c,2)
 
 
-if z==(y+x):
+if z==math.floor(y+x):
     print("that is a right triangle")
 elif z<(y+x):
     print("that is an acute triangle")
