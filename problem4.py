@@ -22,15 +22,15 @@ c=int(c)
 x=math.pow(a,2)
 y=math.pow(b,2)
 z=math.pow(c,2)
-if z>=y and x:
+if z>y and x:
     h=int(z)
     j=int(y)
     k=int(x)
-elif y>=z and x:
+elif y>z and x:
     h=int(y)
     j=int(z)
     k=int(x)
-elif x>=z and x:
+elif x>z and x:
     h=int(x)
     j=int(z)
     k=int(x)
