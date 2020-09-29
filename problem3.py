@@ -8,7 +8,7 @@
 # 1 marks
 a=input("Enter username")
 
-if a=="admin":
+if "admin" in a:
     b=input("Enter password")
 else:
     print("invalid username")
