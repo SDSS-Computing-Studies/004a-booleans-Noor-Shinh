@@ -10,3 +10,11 @@
 # - "positive"
 # - "negative"
 # - "zero"
+a=input("Enter a number")
+a=float(a)
+if a>0:
+    print("positive")
+elif a<0:
+    print("negative")
+elif a==0:
+    print("zero")
