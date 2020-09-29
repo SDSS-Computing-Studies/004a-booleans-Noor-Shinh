@@ -22,23 +22,23 @@ c=float(c)
 x=math.pow(a,2)
 y=math.pow(b,2)
 z=math.pow(c,2)
-if z>y and x:
-    h=float(z)
-    j=float(y)
-    k=float(x)
-elif y>z and x:
-    h=float(y)
-    j=float(z)
-    k=float(x)
-elif x>z and x:
-    h=float(x)
-    j=float(z)
-    k=float(x)
+if a>b and c:
+    x=math.pow(c,2)
+    y=math.pow(b,2)
+    z=math.pow(a,2)
+elif b>a and c:
+    x=math.pow(c,2)
+    y=math.pow(b,2)
+    z=math.pow(b,2)
+elif c>a and b:
+    x=math.pow(a,2)
+    y=math.pow(b,2)
+    z=math.pow(c,2)
 
 
-if h==(j+k):
+if z==(y+x):
     print("that is a right triangle")
-elif h>(j+k):
+elif z>(y+x):
     print("that is an acute triangle")
-elif h<(j+k):
+elif z<(y+x):
     print("that is an obtuse triangle")
