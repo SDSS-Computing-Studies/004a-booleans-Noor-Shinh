@@ -16,24 +16,24 @@ import math
 a=input("Enter side 1 length")
 b=input("Enter side length 2")
 c=input("Enter side length 3")
-a=int(a)
-b=int(b)
-c=int(c)
+a=float(a)
+b=float(b)
+c=float(c)
 x=math.pow(a,2)
 y=math.pow(b,2)
 z=math.pow(c,2)
 if z>y and x:
-    h=int(z)
-    j=int(y)
-    k=int(x)
+    h=float(z)
+    j=float(y)
+    k=float(x)
 elif y>z and x:
-    h=int(y)
-    j=int(z)
-    k=int(x)
+    h=float(y)
+    j=float(z)
+    k=float(x)
 elif x>z and x:
-    h=int(x)
-    j=int(z)
-    k=int(x)
+    h=float(x)
+    j=float(z)
+    k=float(x)
 
 
 if h==(j+k):
