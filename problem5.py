@@ -27,6 +27,6 @@ x=math.pow(b,2)-4*a*c
 z=math.sqrt(x)
 y=math.floor(z)
 if z==y: 
-    print("Factorable")
+    print("the equation can be factored")
 else:
-    print("not factorable")
+    print("the equation can not be factored")
