@@ -22,15 +22,15 @@ c=float(c)
 x=math.pow(a,2)
 y=math.pow(b,2)
 z=math.pow(c,2)
-if a>b and c:
+if a>(b and c):
     x=math.pow(c,2)
     y=math.pow(b,2)
     z=math.pow(a,2)
-elif b>a and c:
+elif b>(a and c):
     x=math.pow(c,2)
     y=math.pow(b,2)
     z=math.pow(b,2)
-elif c>a and b:
+elif c>(a and b):
     x=math.pow(a,2)
     y=math.pow(b,2)
     z=math.pow(c,2)
