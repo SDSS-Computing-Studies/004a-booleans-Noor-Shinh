@@ -15,16 +15,30 @@
 import math
 a=input("Enter side 1 length")
 b=input("Enter side length 2")
-c=input("Enter side length hypoteneuse")
+c=input("Enter side length 3")
 a=int(a)
 b=int(b)
 c=int(c)
 x=math.pow(a,2)
 y=math.pow(b,2)
 z=math.pow(c,2)
-if (x+y)==z:
+if z>=y and x:
+    h=int(z)
+    j=int(y)
+    k=int(x)
+elif y>=z and x:
+    h=int(y)
+    j=int(z)
+    k=int(x)
+elif x>=z and x:
+    h=int(x)
+    j=int(z)
+    k=int(x)
+
+
+if h==(j+k):
     print("that is a right triangle")
-elif (x+y)<z:
-    print("that is an obtuse triangle")
-elif (x+y)>z:
+elif h<(j+k):
     print("that is an acute triangle")
+elif h>(j+k):
+    print("that is an obtuse triangle")
