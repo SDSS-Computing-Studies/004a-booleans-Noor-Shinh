@@ -23,8 +23,8 @@ x=math.pow(a,2)
 y=math.pow(b,2)
 z=math.pow(c,2)
 if (x+y)==z:
-    print("That is a right triangle")
+    print("that is a right triangle")
 elif (x+y)<z:
-    print("That is an obtuse triangle")
+    print("that is an obtuse triangle")
 elif (x+y)>z:
-    print("That is an acute triangle")
+    print("that is an acute triangle")
